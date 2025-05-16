@@ -113,3 +113,58 @@ footer {
   cursor: pointer;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2e8b57;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #246e46;
+}
+#bibliografia {
+  padding: 45px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+#bibliografia h2 {
+  color: #2e8b57;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+#bibliografia ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#bibliografia li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+#bibliografia a {
+  color: #0f62b6;
+  text-decoration: none;
+}
+
+#bibliografia a:hover {
+  text-decoration: underline;
+}
+.grafico-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
